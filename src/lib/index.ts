@@ -1,6 +1,7 @@
-import { readXlsxFile } from "./utils";
-import Excel from "./Components/Excel";
+import Excel from "./Components/Excel/Excel";
 
 
 export * from "./types.d";
-export { readXlsxFile,Excel };
+export * from "./utils";
+export * from "./Components/Excel/Excel";
+export { Excel };

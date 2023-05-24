@@ -10,9 +10,9 @@ import React, {
 import {
 	ExcelData,
 	ExcelReturnType
-} from '../types.d';
+} from '../../types.d';
 import styles from './Excel.module.css';
-import { readXlsxFile } from '../utils';
+import { readXlsxFile } from '../../utils';
 
 export interface ExcelProps {
 	file: string | File;
